@@ -21,7 +21,6 @@ from django.contrib import admin
 from django.views.generic.base import TemplateView
 from rest_framework_jwt.views import obtain_jwt_token
 
-from ang.views import AngularTemplateView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
